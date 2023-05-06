@@ -509,15 +509,16 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-bg-cl);
   padding: 16px;
+  margin-bottom: 16px;
 }
 
 .footer-container {
   display: flex;
-  gap: 120px;
   align-items: baseline;
 }
 
 .footer-info {
+  margin-right: 120px;
 }
 
 .customers-section {
@@ -578,9 +579,14 @@ body {
   margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--subtitle-cl);
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
 }
